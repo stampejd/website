@@ -1,0 +1,37 @@
+body {
+	background-image: url("http://www.intrawallpaper.com/static/images/abstract-mosaic-background.png");
+	background-size: 100%;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	/* This is a comment*/
+	font-size: 20px;
+	background-color: white;
+}
+
+img {
+	height: 50%;
+	width: 50%;
+}
+
+#image1 {
+	height: 50%;
+	width: 50%;
+}
+
+a {
+	color: #00FFFF;
+}
+
+#legenddesc {
+	text-align: center;
+}
+
+.priority {
+	text-align: center;
+}

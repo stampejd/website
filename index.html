@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery
+		.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstr
+		ap.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="jumbotron">
+					<h1>The Legend</h1>
+					<p class="lead" id="legenddesc">He has bruised ankles.
+					</p>
+					<p class="priority">
+						<a class="btn btn-lg btn-success" href="#page2" role="button" >Learn more</a>
+					</p>
+				<div/>
+			<div/>
+		</header>
+		<h1>Keegan Kinkade</h1>
+		<h2><span style="color:red">The baddest mofo there is</span></h2>
+		<p>There is no better friend and no worse enemy. This is a <small>small</small> word. This is a <strong>strong</strong> word. This is an <em>italicized</em> word.</p>
+		<a href="http://www.google.com" target="_blank">
+			I will open Google in a new tab.
+		</a>
+		<br>
+		<a href="http://www.google.com">
+			I will reload this page as Google.
+		</a>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img id="image1" src="https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-0/p206x206/246560_2074564430469_1382644689_n.jpg?oh=b8cab0ab2ad330aab6b07da8fee67685&oe=58884F98">
+				</div>
+				<div class="col-md-6">
+					<img src="C:\Users\Joe Stamper\Pictures\Flag Background.jpg">
+				</div>
+			</div>
+		</div>
+		<div>
+		<ul style="list-style-type:square">
+			<li>He is strong</li>
+			<li>He is fast</li>
+			<li>He is determined</li>
+		</ul>
+		</div>
+		<input id="numericInput" type="number">
+		<p id="result"></p>
+		<button type="button" onclick="testinput()">Test input!</button>
+		<script>
+			function testInput() {
+				// Create variable to store test result
+				var text;
+				// Get the value of the input field with id="numb"
+				var x = document.getElementById("numericInput").value;
+				if (isNaN(x) || x < 0 || x > 99) {
+				text = "Wrong input";
+				} else {
+				text = "Correct input";
+				}
+				// Display result
+				document.getElementById("result").innerHTML = text;
+			}
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#myCarousel").carousel({interval: 4000});
+			});
+		</script>
+	</body>
+</html>
